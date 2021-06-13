@@ -1,0 +1,7 @@
+rainRecEndYear 	2018
+corrStartDate 	10-15-1950
+corrEndDate 	06-14-2019
+startTrainDate 	10-15-1950
+splitDate 		09-15-2002
+lookBack 		1 2 3 6 12 18 24 36 60 120
+pptSelect 	1.765
