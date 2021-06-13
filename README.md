@@ -1,4 +1,7 @@
 # Regression_Models_in_Python_for_Predicting_Lake_Stage_from_Cumulative_Hydrology_Data
+
+![Preview](https://numericalenvironmental.files.wordpress.com/2021/06/svr-validation.png)
+
 This is a short Python script intended for analysis of historic rainfall data and lake stage hydrographs, with the objective of predicting the latter from the former. Specifically, the script trains linear, random forest, support vector, and multilayer perceptron regression models to represent relationships between cumulative rainfall deficits, averaged over time periods ranging from months to years, and hydrograph data from a lake in an urban environment. The regression models are then applied to a validation data set where lake stage is predicted by subsequent cumulative rainfall deficits. See my blog [https://numericalenvironmental.wordpress.com/2021/06/13/predicting-lake-stage-in-an-urban-environment-using-historic-rainfall-data-and-candidate-regression-models/] for more details of both the approach and the example application.
 NumPy, Scikit-Learn, Matplotlib, and miscellaneous SciPy classes are required to run the script, as are the following input files:
 * precip_record.csv – rainfall record, by month
